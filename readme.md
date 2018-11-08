@@ -1,3 +1,24 @@
+# Lost Pets
+
+Contains some errors for you to fix!
+
+It may not run completely, You should modify it to contain a link on the login page for a new user to register. And also allow a logged in user to edit their profile.
+
+Example of a base.html file with a navbar and a footer. Call it to display the navbar as follows:
+
+<div th:replace="base :: nav"></div>
+
+Notice the yellow highlight which shows how the Username will display if the user is authenticated (logged in) otherwise the link to login will show.
+
+You can view the entire lost pets project on GitHub at https://github.com/JBCSep2018/LostPetsToBeFixed (Links to an external site.)Links to an external site.
+
+It may not run completely, You should modify it to contain a link on the login page for a new user to register. And also allow a logged in user to edit their profile.
+
+Example of a base.html file with a navbar and a footer. Call it to display the navbar as follows:
+
+<div th:replace="base :: nav"></div>
+
+
 <!DOCTYPE html>
 <html lang="en" xmlns:th="www.thymeleaf.org" xmlns:sec="http://www.w3.org/1999/xhtml">
 <head th:fragment="header">
@@ -52,7 +73,7 @@
     <div class="space"></div>
 
 </div>
-
+  
     <footer th:fragment="footer">
         <div class="footer" align="center">
             <hr/>
@@ -69,3 +90,4 @@
 </div>
 </body>
 </html>
+
